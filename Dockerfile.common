@@ -50,6 +50,7 @@ RUN npm install -g homebridge
 #RUN npm install -g homebridge-sonos
 RUN npm install -g homebridge-http-jeedom
 RUN npm install -g homebridge-http
+#RUN mkdir GitProject && cd GitProject && curl -sL https://github.com/hplato/homebridge-httpmulti/tarball/master | tar xz && cd * && npm install -g
 
 ##################################################
 # Start                                          #
